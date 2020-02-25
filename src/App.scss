@@ -1,0 +1,16 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+@import 'Layout/Layout';
+@import 'NavBar/NavBar';
+
+@import 'Content/About/About';
+@import 'Content/Projects/Projects';
+@import 'Content/Contact/Contact';
+
+@import 'Content/Footer/Footer';
+
+
+$theme-colors: (
+  'primary': #0074d9,
+  'info': #0074d9
+);

@@ -1,0 +1,14 @@
+@use 'App';
+
+.DisplayTags {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    li {
+        padding: 3px 5px;
+        margin-right: 10px;
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+}
