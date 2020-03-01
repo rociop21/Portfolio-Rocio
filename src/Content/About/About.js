@@ -8,7 +8,7 @@ import Rocio from './../../Assets/PersonalImg/Rocio.jpg'
 
 const About = () => {
     return (
-        <div>
+        <div id='about'>
             <Container fluid className='AboutIntro'>
                 <Row>
                     <Col md={{ span: 6, offset: 1 }}> 
@@ -16,7 +16,7 @@ const About = () => {
                         <h2>Front-end web developer from Rosario, Argentina.</h2>
                     </Col>
                     <Col md={{ span: 2, offset: 1 }}>
-                        <img className='RocioImg' src={Rocio} />
+                        <img className='RocioImg' src={Rocio} alt='Rocio Pantalone' />
                     </Col>
                 </Row>
             </Container>

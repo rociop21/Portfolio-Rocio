@@ -24,6 +24,7 @@ const Projects = () => {
     let projectList = (
         projectsElements.map(el=>
             <ProjectCard
+                key={el.key}
                 name={el.name}
                 img={el.img}
                 description={el.description}
@@ -34,7 +35,7 @@ const Projects = () => {
     )
 
     return (
-        <Container>
+        <Container id='projects'>
             <h3 className='ProjectsTitle'>My Projects</h3>
             {projectList}
         </Container>

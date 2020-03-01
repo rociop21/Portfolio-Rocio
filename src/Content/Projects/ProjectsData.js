@@ -39,8 +39,8 @@ export const ProjectsData = {
             "React",
             "Bootstrap 4",
         ],
-        DemoLink: "Curls-Proof",
-        SourceLink: "Curls-Proof"
+        DemoLink: "https://goofy-goodall-77f308.netlify.com/",
+        SourceLink: "https://github.com/rociop21/Portfolio-Rocio"
     },
 }
 

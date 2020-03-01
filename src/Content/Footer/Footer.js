@@ -19,10 +19,10 @@ const Footer = () => {
             </Navbar>
             <Navbar className='AllFooter' expand="lg">
                 <Nav className="flex-row SocialFooter">
-                        <Nav.Link href="mailto:rocio.pantalone@gmail.com"><img src={mail}/></Nav.Link>
-                        <Nav.Link href="https://www.linkedin.com/in/roc%C3%ADo-yasm%C3%ADn-pantalone-39ba45180/"><img src={linkedin}/></Nav.Link>
-                        <Nav.Link href="https://github.com/rociop21"><img src={github}/></Nav.Link>
-                        <Nav.Link href="https://www.instagram.com/rociopantalone/"><img src={instagram}/></Nav.Link>
+                        <Nav.Link href="mailto:rocio.pantalone@gmail.com"><img src={mail} alt='email representation' /></Nav.Link>
+                        <Nav.Link href="https://www.linkedin.com/in/roc%C3%ADo-yasm%C3%ADn-pantalone-39ba45180/"><img src={linkedin} alt='Linkedin logo' /></Nav.Link>
+                        <Nav.Link href="https://github.com/rociop21"><img src={github} alt='GitHub logo' /></Nav.Link>
+                        <Nav.Link href="https://www.instagram.com/rociopantalone/"><img src={instagram} alt='Instagram logo' /></Nav.Link>
                 </Nav>
             </Navbar>
             <Navbar className='AllFooter' expand="lg">
