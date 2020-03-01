@@ -1,7 +1,8 @@
 export const ProjectsData = {
     BurgerBuilder: {
         Name: "Burger-Builder",
-        Description: "Curls-Proof",
+        Img: "https://i.ibb.co/Km6pCMd/Screenshot-1.png",
+        Description: "This project was made as a part of the Udemy course 'React - The Complete Guide (incl Hooks, React Router, Redux)'. I coded this as a practice to experiment with the different concepts learnt in the course path.",
         Tecnologies: [
             "JSX",
             "CSS",
@@ -16,6 +17,7 @@ export const ProjectsData = {
     },
     CurlsProof: {
         Name: "Curls-Proof",
+        Img: "https://i.ibb.co/W6LZDFS/Screenshot-2.png",
         Description: "This is the first big side project I have made. Once my idea was clear, I started gathering information and defining stages in order to organize myself to code the app and avoid doing everything at the same time. Then I planned the sitemap and the layouts, my folder structure became to take form and finaly I coded everything.",
         Tecnologies: [
             "JSX",
@@ -29,7 +31,8 @@ export const ProjectsData = {
     },
     Portfolio: {
         Name: "Portfolio",
-        Description: "Curls-Proof",
+        Img: "https://i.ibb.co/8NrTRm8/curls-proof.png",
+        Description: "When I think of a portfolio, it comes to my mind a place not only to showcase your projects but also to show your personality. That's what drove me to built this really simple yet efficient webpage.",
         Tecnologies: [
             "JSX",
             "CSS",

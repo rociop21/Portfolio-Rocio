@@ -2,11 +2,38 @@
 
 .Copyright {
     width: 100%;
+    background-color: #343a40;
     p {
         text-align: center;
+        padding-top: 15px;
     }
 }
 
 .Mainfooter {
     text-align: center;
+    background-color: #343a40;
+}
+
+.AllFooter {
+    background-color: #343a40;
+    color: #d2f4ea!important;
+    font-family: 'Roboto Slab';
+    a {
+        color: #d2f4ea!important;
+    }
+}
+
+.SocialFooter {
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    h3 {
+        padding-bottom: 15px;
+    }
+    img {
+        height: 30px;
+        width: 30px;
+        margin-right: 15px;
+    }
 }

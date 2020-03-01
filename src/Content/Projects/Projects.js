@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Col';
 
 import ProjectCard from './ProjectCard';
 import ProjectsData from './ProjectsData';
@@ -14,6 +13,7 @@ const Projects = () => {
         projectsElements.push({
             id: key,
             name: ProjectsData[key].Name,
+            img: ProjectsData[key].Img,
             description: ProjectsData[key].Description,
             tecnologies: ProjectsData[key].Tecnologies,
             demoLink: ProjectsData[key].DemoLink,
@@ -25,6 +25,7 @@ const Projects = () => {
         projectsElements.map(el=>
             <ProjectCard
                 name={el.name}
+                img={el.img}
                 description={el.description}
                 tecnologies={el.tecnologies}
                 demoLink={el.demoLink}
@@ -34,6 +35,7 @@ const Projects = () => {
 
     return (
         <Container>
+            <h3 className='ProjectsTitle'>My Projects</h3>
             {projectList}
         </Container>
     );

@@ -1,6 +1,13 @@
+$primary: #343a40;
+$info: teal;
+
+$theme-colors: (
+  "primary": $primary,
+  "info": $info,
+);
+
 @import '~bootstrap/scss/bootstrap.scss';
 
-@import 'Layout/Layout';
 @import 'NavBar/NavBar';
 
 @import 'Content/About/About';
@@ -10,7 +17,6 @@
 @import 'Content/Footer/Footer';
 
 
-$theme-colors: (
-  'primary': #0074d9,
-  'info': #0074d9
-);
+.Content {
+  font-family: 'Roboto';
+}

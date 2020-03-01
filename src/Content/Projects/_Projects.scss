@@ -1,14 +1,60 @@
 @use 'App';
 
+.ProjectsTitle {
+    font-size: 35px;
+    font-family: 'Roboto Slab';
+    padding-bottom: 20px;
+    border-bottom: 4px solid rgba(32, 201, 151, 0.1);
+    margin-bottom: 60px;
+}
+
 .DisplayTags {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 15px 20px;
     li {
         padding: 3px 5px;
         margin-right: 10px;
+        margin-bottom: 10px;
         border: 1px solid black;
         border-radius: 5px;
+    }
+}
+
+.ProjectCard {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 60px;
+}
+
+.CardImg {
+    width: 450px;
+    height: 362px;
+}
+
+.card-title {
+        font-size: 25px;
+        font-family: 'Roboto Slab';
+    }
+
+
+.ProjectsButton {
+    margin-left: 10px;
+}
+
+.ProjectsButtonGroup {
+    margin-left: 20px;
+}
+
+@media (max-width: 990px) {
+    .ProjectCard {
+        flex-direction: column!important;
+    }
+    .CardImg {
+        justify-content: center;
+        width: 100%!important;
+        flex-shrink: 0!important;
     }
 }

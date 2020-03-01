@@ -3,8 +3,6 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Card from 'react-bootstrap/Card';
-import CardDeck from 'react-bootstrap/CardDeck'
 
 const About = () => {
     return (
@@ -15,13 +13,21 @@ const About = () => {
                         <h1>Hi, I'm Rocio!</h1>
                         <h2>Front-end web developer from Rosario, Argentina.</h2>
                     </Col>
+                    <Col>
+                        <img src='https://dummyimage.com/200x400' />
+                    </Col>
                 </Row>
             </Container>
             <Container className='ContainerBox'>
                 <Row>
                     <Col className='AboutText'>
-                        <p>I'm a chemical engeneering ex-student who decided to take a leap into the development world to find my real 
-                            passion. I like coding minimalistic website that are intuitive and user friendly.</p>
+                        <p>I am a 23 years-old self-taught programmer and truth be told, I didn’t take the usual route into a tech carrer. 
+                            I am from a small town where IT carrers are not so usual, so when I was yunger I got interested in chemistry; 
+                            later on I studied chemical engeneering for 3 years, but every year that passed I was realizing more and more that it wasn't what I really wanted. 
+                            A few month ago, I decided to take a leap into the development world to find my real passion so I began doing some web-development tutorials, 
+                            reading documentation and programming books.</p>
+                        <p>I like coding minimalistic website that are intuitive and user friendly.</p>
+
                     </Col>
                 </Row>
                 <Row>
@@ -44,9 +50,9 @@ const About = () => {
                     <Col className='AboutTechCol'>
                         <h3>Libraries</h3>
                         <ul className='TechTags'>
-                            <li>Redux</li>
                             <li>Axios</li>
                             <li>React-Router</li>
+                            <li>Redux</li>
                         </ul>
                     </Col> 
                 </Row>
