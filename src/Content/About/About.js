@@ -4,17 +4,19 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import Rocio from './../../Assets/PersonalImg/Rocio.jpg'
+
 const About = () => {
     return (
         <div>
             <Container fluid className='AboutIntro'>
                 <Row>
-                    <Col>
+                    <Col md={{ span: 6, offset: 1 }}> 
                         <h1>Hi, I'm Rocio!</h1>
                         <h2>Front-end web developer from Rosario, Argentina.</h2>
                     </Col>
-                    <Col>
-                        <img src='https://dummyimage.com/200x400' />
+                    <Col md={{ span: 2, offset: 1 }}>
+                        <img className='RocioImg' src={Rocio} />
                     </Col>
                 </Row>
             </Container>
