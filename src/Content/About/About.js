@@ -24,9 +24,9 @@ const About = () => {
                 <Row>
                     <Col className='AboutText'>
                         <p>I am a 23 years-old self-taught programmer and truth be told, I didn’t take the usual route into a tech carrer. 
-                            I am from a small town where IT carrers are not so usual, so when I was younger I got interested in chemistry.<br /><br />
-                            Later on I studied chemical engineering for 3 years, but every year that passed I was realizing more and more that it wasn't what I really wanted. 
-                            A few month ago, I decided to take a leap into the development world to find my real passion so I began doing some web-development tutorials, 
+                            I am from a small town where IT carrers are not so usual, so when I was young I got interested in chemistry.<br /><br />
+                            Later on I studied chemical engineering for 3 years, but every year that passed by I was realizing more and more that it wasn't what I really wanted. 
+                            A year ago, I decided to take a leap into the development world to learn my real passion so I began doing some web-development tutorials, 
                             reading documentation and programming books.<br /><br /> Eventually, I was making my way in the programming community and participating more, 
                             getting advice and being able to better shape my learning path. I like coding minimalistic website that are intuitive and user friendly.</p>
 

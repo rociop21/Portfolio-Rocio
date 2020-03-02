@@ -16,8 +16,8 @@ const ProjectCard = (props) => {
                     )}
                 </ul>
                 <div className='ProjectsButtonGroup'>
-                    <Button className='ProjectsButton' variant="info" href={props.demoLink}>Live demo</Button>{' '}
-                    <Button className='ProjectsButton' variant="info" href={props.sourceLink}>View source</Button>
+                    <Button className='ProjectsButton' variant="info" href={props.demoLink} target="_blank">Live demo</Button>{' '}
+                    <Button className='ProjectsButton' variant="info" href={props.sourceLink} target="_blank">View source</Button>
                 </div>
                 
             </Card.Body>
