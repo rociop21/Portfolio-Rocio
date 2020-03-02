@@ -8,7 +8,7 @@ import Logo from './../Assets/Logo/RP logo.png'
 const NavBar = () => {
     return (
         <Navbar className='NavBar' expand="lg" sticky="top" variant="dark">
-            <Navbar.Brand href="#about"><img src={Logo} height="50px" alt='Rocio Pantalone logo' /></Navbar.Brand>
+            <Navbar.Brand><img src={Logo} height="50px" alt='Rocio Pantalone logo' /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                 <Nav>

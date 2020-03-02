@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Rocio from './../../Assets/PersonalImg/Rocio.jpg'
+import Rocio from './../../Assets/PersonalImg/Rocio.png'
 
 const About = () => {
     return (
@@ -15,7 +15,7 @@ const About = () => {
                         <h1>Hi, I'm Rocio!</h1>
                         <h2>Front-end web developer from Rosario, Argentina.</h2>
                     </Col>
-                    <Col md={{ span: 2, offset: 1 }}>
+                    <Col md={{ span: 2, offset: 1 }} className='ImgCol'>
                         <img className='RocioImg' src={Rocio} alt='Rocio Pantalone' />
                     </Col>
                 </Row>
@@ -24,15 +24,15 @@ const About = () => {
                 <Row>
                     <Col className='AboutText'>
                         <p>I am a 23 years-old self-taught programmer and truth be told, I didn’t take the usual route into a tech carrer. 
-                            I am from a small town where IT carrers are not so usual, so when I was yunger I got interested in chemistry; 
-                            later on I studied chemical engeneering for 3 years, but every year that passed I was realizing more and more that it wasn't what I really wanted. 
+                            I am from a small town where IT carrers are not so usual, so when I was younger I got interested in chemistry.<br /><br />
+                            Later on I studied chemical engineering for 3 years, but every year that passed I was realizing more and more that it wasn't what I really wanted. 
                             A few month ago, I decided to take a leap into the development world to find my real passion so I began doing some web-development tutorials, 
-                            reading documentation and programming books.</p>
-                        <p>I like coding minimalistic website that are intuitive and user friendly.</p>
+                            reading documentation and programming books.<br /><br /> Eventually, I was making my way in the programming community and participating more, 
+                            getting advice and being able to better shape my learning path. I like coding minimalistic website that are intuitive and user friendly.</p>
 
                     </Col>
                 </Row>
-                <Row>
+                <Row className='AboutTechRow'>
                     <Col className='AboutTechCol'>
                         <h3>Languages</h3>
                         <ul className='TechTags'>

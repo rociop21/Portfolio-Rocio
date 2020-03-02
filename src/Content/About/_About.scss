@@ -25,6 +25,14 @@
     box-shadow: 1px 3px 5px 5px rgba(0, 0, 0, 0.4), 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
 
+.ImgCol {
+    text-align: center;
+}
+
+.AboutText {
+    margin-bottom: 40px;
+}
+
 .ContainerBox {
     border-radius: 12px;
     background-color: white;
@@ -39,11 +47,15 @@
     h3 {
         font-size: 30px;
         font-family: 'Roboto Slab';
+        padding-bottom: 10px;
+    }
+    p {
+        padding: 20px 20px;
     }
 }
 
-.AboutText {
-    margin-bottom: 40px;
+.AboutTechRow {
+    padding-bottom: 10px;
 }
 
 .AboutTechCol {
@@ -74,7 +86,10 @@
             font-size: 30px;
         }
     }
-    .RocioImg {
-        margin-left: 5em;
+}
+
+@media (max-width: 530px) {
+    .AboutTechRow {
+        flex-direction: column;
     }
 }

@@ -31,7 +31,7 @@ export const ProjectsData = {
     },
     Portfolio: {
         Name: "Portfolio",
-        Img: "https://i.ibb.co/SPYVnc5/Screenshot-3.png",
+        Img: "https://i.ibb.co/sqvJ5vG/Screenshot-3.png",
         Description: "When I think of a portfolio, it comes to my mind a place not only to showcase your projects but also to show your personality. That's what drove me to built this really simple yet efficient webpage.",
         Tecnologies: [
             "JSX",

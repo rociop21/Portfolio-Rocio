@@ -11,7 +11,7 @@ const Projects = () => {
 
     for (let key in ProjectsData) {
         projectsElements.push({
-            id: key,
+            key: key,
             name: ProjectsData[key].Name,
             img: ProjectsData[key].Img,
             description: ProjectsData[key].Description,
