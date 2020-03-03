@@ -41,7 +41,7 @@ export const ProjectsData = {
             "JSX",
             "SCSS",
         ],
-        DemoLink: "https://goofy-goodall-77f308.netlify.com/",
+        DemoLink: "https://rociopantalone.com.ar/",
         SourceLink: "https://github.com/rociop21/Portfolio-Rocio"
     },
 }
